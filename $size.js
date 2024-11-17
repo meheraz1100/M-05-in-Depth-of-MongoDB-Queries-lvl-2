@@ -1,0 +1,1 @@
+db.test.find({ company : { $type: "null" }}).project({company: 1})
